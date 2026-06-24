@@ -29,8 +29,9 @@ const Navbar = () => {
                     <div className="navbar-middle">
 
                         <NavLink to='/'>HOME</NavLink>
+                        <NavLink to='/dashboard'>DASHBOARD</NavLink>
+                        <NavLink to='/profile'>PROFILE</NavLink>
                         <NavLink>ABOUT</NavLink>
-                        <NavLink>FEATURES</NavLink>
 
                     </div>
 
