@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
         <div className="navbar-container">
             
-            <div className="page-wraper">
+            
           
                   <nav>
 
@@ -43,10 +43,6 @@ const Navbar = () => {
                     </div>
 
                   </nav>
-
-        </div>
-
-           
             
 
 

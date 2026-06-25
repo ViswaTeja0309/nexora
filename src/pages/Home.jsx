@@ -4,6 +4,7 @@ import Navbar from '../components/common/Navbar'
 import heroBg from "../assets/images/hero_image_4.jpg";
 import { HiRocketLaunch } from "react-icons/hi2";
 import '../styles/Hero.css'
+import HowItWorks from '../components/home/HowItWorks';
 
 const Home = () => {
 
@@ -47,13 +48,7 @@ const Home = () => {
             </div>
 
 
-
-
-
-
-
-
-            <div>viswa</div>
+            <HowItWorks/>
 
       </div>
 

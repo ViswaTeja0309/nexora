@@ -1,0 +1,97 @@
+.section-header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin-top:120px;
+}
+
+.working-badge{
+    padding:10px 18px;
+
+    border-radius:25px;
+
+    border:1px solid #B360FC;
+
+    background:
+    rgba(177,115,235,0.18);
+
+    backdrop-filter:blur(20px);
+}
+
+.working-heading{
+    margin-top:25px;
+    text-align:center;
+}
+
+.working-heading h2{
+    font-size:52px;
+    line-height:1.2;
+
+    font-weight:800;
+}
+
+.working-heading span{
+    color:#CD93FF;
+
+    font-family:
+    "Space Grotesk",
+    sans-serif;
+}
+
+.working-cards-container{
+    display:flex;
+
+    justify-content:center;
+
+    gap:24px;
+
+    margin-top:60px;
+
+    flex-wrap:wrap;
+}
+
+.step-card{
+    width:280px;
+
+    padding:28px;
+
+    border-radius:24px;
+
+    border:1px solid #B360FC;
+
+    background:
+    rgba(168,85,247,0.12);
+
+    backdrop-filter:blur(12px);
+
+    transition:0.3s;
+}
+
+.step-card:hover{
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 10px 30px rgba(168,85,247,0.25);
+}
+
+.step-card span{
+    font-size:42px;
+    font-weight:700;
+
+    color:#C084FC;
+}
+
+.step-card h1{
+    font-size:24px;
+
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.step-card p{
+    color:
+    rgba(255,255,255,0.75);
+
+    line-height:1.7;
+}
