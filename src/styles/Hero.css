@@ -1,3 +1,4 @@
+
 .home-container{
     min-height:100vh;
 
@@ -15,6 +16,7 @@
 }
 
 .hero-ai-badge{
+  
     display:flex;
     align-items:center;
     gap:8px;

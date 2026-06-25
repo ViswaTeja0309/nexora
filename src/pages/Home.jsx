@@ -5,6 +5,7 @@ import heroBg from "../assets/images/hero_image_4.jpg";
 import { HiRocketLaunch } from "react-icons/hi2";
 import '../styles/Hero.css'
 import HowItWorks from '../components/home/HowItWorks';
+import CareerDomain from '../components/home/CareerDomain';
 
 const Home = () => {
 
@@ -46,11 +47,13 @@ const Home = () => {
               <button className="explore-btn">Explore Features</button>
               
             </div>
-
-
-            <HowItWorks/>
+     
 
       </div>
+
+      <HowItWorks/>
+
+      <CareerDomain/>
 
             
 
