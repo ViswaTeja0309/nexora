@@ -6,6 +6,7 @@ import { HiRocketLaunch } from "react-icons/hi2";
 import '../styles/Hero.css'
 import HowItWorks from '../components/home/HowItWorks';
 import CareerDomain from '../components/home/CareerDomain';
+import Preview from '../components/home/Preview';
 
 const Home = () => {
 
@@ -54,6 +55,8 @@ const Home = () => {
       <HowItWorks/>
 
       <CareerDomain/>
+
+      <Preview/>
 
             
 

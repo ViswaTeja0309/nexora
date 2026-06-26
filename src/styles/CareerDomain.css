@@ -54,7 +54,8 @@
     backdrop-filter:blur(12px);
     transition:0.3s;
     padding:28px;
-    width:280px;
+    width:400px;
+    
 }
 
 .career-card:hover {
@@ -63,15 +64,35 @@
     box-shadow: 0 10px 30px rgba(168,85,247,0.25);
 }
 
-.career-card h2 {
+.career-icon-heading {
 
-    font-size:24px;
-    margin-top:15px;
-    margin-bottom:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
 }
 
-.career-card p {
+.career-icon-heading h2 {
 
-    color:rgba(255,255,255,0.75);
-    line-height:1.7;
+    font-size:28px;
+    margin-top:15px;
+    margin-bottom:15px;
+    color:#C084FC;
+    
+}
+
+.career-icon-heading span {
+
+    color:#C084FC;
+    text-shadow:0 0 20px rgba(192,132,252,0.4);
+    
+}
+
+.carrer-pargraph p {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.952);
+    line-height: 1.5;
 }
