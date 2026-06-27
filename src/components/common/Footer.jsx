@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../styles/Footer.css"
+import { motion } from "framer-motion";
 
 const Footer = () => {
 
@@ -7,7 +8,16 @@ const Footer = () => {
 
     <div className="footer-container">
 
-        <div className="footer-top-section">
+        <motion.div
+                className="footer-top-section"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{
+                    duration: 0.7,
+                    ease: "easeOut",
+                }}
+        >
 
             <div className="footer-logo">
 
@@ -28,10 +38,21 @@ const Footer = () => {
                 <br></br>and smarter career decisions.</p>
             </div>
 
-        </div>
+        </motion.div>
+
+        
 
 
-        <div className="footer-middile-section">
+        <motion.div
+                className="footer-middile-section"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{
+                    duration: 0.8,
+                    delay: 0.2,
+                }}
+        >
 
             <div className="first-list">
                 <h4>Quick Links</h4>
@@ -53,6 +74,7 @@ const Footer = () => {
                 <p>Login</p>
                 <p>Sign Up</p>
                 </div>
+
             </div>
 
             <div className="third-list">
@@ -64,7 +86,7 @@ const Footer = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
 
         <div className="footer-last-section">
             <p>Built to simplify career planning for everyone. |</p>

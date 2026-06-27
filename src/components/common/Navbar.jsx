@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "../../styles/Navbar.css";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
 
@@ -11,7 +12,14 @@ const Navbar = () => {
             
             
           
-                  <nav>
+                  <motion.nav
+                              initial={{ opacity: 0, y: -20 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              transition={{
+                                  duration: 0.7,
+                                  ease: "easeOut",
+                              }}
+                  > 
 
                     <div className="logo-container">
 
@@ -42,7 +50,7 @@ const Navbar = () => {
 
                     </div>
 
-                  </nav>
+                  </motion.nav>
             
 
 
