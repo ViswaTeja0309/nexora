@@ -7,6 +7,7 @@ import '../styles/Hero.css'
 import HowItWorks from '../components/home/HowItWorks';
 import CareerDomain from '../components/home/CareerDomain';
 import Preview from '../components/home/Preview';
+import Footer from '../components/common/Footer';
 
 const Home = () => {
 
@@ -57,6 +58,8 @@ const Home = () => {
       <CareerDomain/>
 
       <Preview/>
+
+      <Footer/>
 
             
 
